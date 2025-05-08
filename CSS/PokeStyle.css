@@ -1,0 +1,101 @@
+/* All Nav Styling */
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+  }
+  
+nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: left;
+  }
+  
+nav li {
+    display: inline-block;
+    position: relative;
+    background-color: #257e22; 
+    border: 1px solid #2f4f4f;
+    padding: 8px 12px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px 5px 0 0;
+  }
+  
+nav li:hover {
+    background-color: #315f86; 
+  }
+  
+nav li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    padding: 0;
+    min-width: 100px; 
+    background-color: #5f9ea0; 
+    border: 1px solid #269d4c;
+    font-size: 17px; 
+    border-radius: 0 0 6px 6px;
+  }
+  
+nav li ul li {
+    width: 100%;
+    padding: 6px 10px;
+    color: white;
+  }
+  
+nav li ul li:hover {
+    background-color: #497c7c;
+  }
+  
+nav li:hover > ul {
+    display: block;
+}
+  
+
+  
+/* Body styling */
+body {
+    text-align: center;
+    background-color: #d3ecf5; 
+    font-size: 20px;
+    color: navy;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 900px;
+  padding-bottom: 30px; /* to allow space between text and table */
+}
+
+/* Table styling */
+table {
+    margin: auto;
+    color: navy;
+    background-color: #3ddde3; 
+    
+}
+
+.gif {
+  padding-top: 30px; /* to allow space between table and gif */
+}
+
+/* Links */
+a {
+    color: #f2f2f3;
+    text-decoration: none;
+    transition: color 0.25s ease;
+}
+
+a:hover {
+    color: #1e90ff;
+    text-decoration: underline;
+}
+
+
